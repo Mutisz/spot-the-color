@@ -1,3 +1,7 @@
+.game-panel {
+  margin-bottom: 82px;
+}
+
 .game-panel > * {
   padding: 10px;
 }

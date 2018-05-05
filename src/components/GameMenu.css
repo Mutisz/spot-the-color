@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: var(--foreground-color);
-  color: white;
+  color: var(--font-light-color);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -24,12 +24,13 @@
 .game-menu-item .dropdown .dropdown-button,
 .game-menu-item .dropdown .dropdown-content {
   text-align: center;
-  color: black;
+  color: var(--font-dark-color);
   cursor: pointer;
 }
 
 .game-menu-item .button,
 .game-menu-item .dropdown .dropdown-button {
+  position: relative;
   width: 140px;
   background-color: var(--button-color);
   border: 1px dashed var(--border-color);
