@@ -1,0 +1,36 @@
+.game-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--foreground-color);
+  color: white;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.game-footer-item {
+  padding: 10px;
+}
+
+.game-footer-item .label {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.game-footer-item .label.success {
+  color: var(--success-color);
+}
+
+.game-footer-item .label.failure {
+  color: var(--failure-color);
+}
+
+.game-footer-item .field {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  background-color: var(--button-color);
+  color: black;
+}

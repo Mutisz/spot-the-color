@@ -1,0 +1,27 @@
+.game-panel > * {
+  padding: 10px;
+}
+
+.game-status {
+  text-align: center;
+}
+
+.game-status .color-code {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.color-field-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-status.success h3 {
+  color: var(--success-color);
+}
+
+.game-status.failure h3 {
+  color: var(--failure-color);
+}
